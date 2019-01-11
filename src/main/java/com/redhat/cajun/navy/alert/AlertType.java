@@ -1,5 +1,16 @@
 package com.redhat.cajun.navy.alert;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public enum AlertType {
-    SUCCESS, INFO, DANGER
+
+    @JsonProperty("success")
+    SUCCESS,
+
+    @JsonProperty("info")
+    INFO,
+
+    @JsonProperty("danger")
+    DANGER
+
 }
