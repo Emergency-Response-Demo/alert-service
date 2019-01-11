@@ -14,8 +14,8 @@ public class AlertsController {
 
         ArrayList<Alert> alerts = new ArrayList<>();
         alerts.add(new Alert(AlertType.DANGER, "Severe weather alert!"));
-        alerts.add(new Alert(AlertType.SUCCESS, "Successfully increased the priority of the selected area."));
-        alerts.add(new Alert(AlertType.INFO, "17 boats are responding to the newly prioritized area."));
+        //alerts.add(new Alert(AlertType.SUCCESS, "Successfully increased the priority of the selected area."));
+        //alerts.add(new Alert(AlertType.INFO, "17 boats are responding to the newly prioritized area."));
 
         return alerts;
     }
